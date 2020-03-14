@@ -1,6 +1,6 @@
 //ejercicio 0
 let primera_mayuscula = function(texto){
-  return texto.charAt(0).toUpperCase() + texto.slice(1);
+  return texto.charAt(0).toUpperCase() + texto.substring(1);
 }
 var result = primera_mayuscula('sdsdsdsdsd dsdsd');
 console.log(result);
